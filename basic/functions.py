@@ -75,3 +75,4 @@ def triplo(x):
     print(f'O triplo de {x} é {result_triplo}')
     return result_triplo
 print(triplo(x))
+
