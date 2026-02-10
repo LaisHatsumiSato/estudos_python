@@ -30,3 +30,51 @@ nomes= ["Ana", "Bruno", "Carlos", "Diana"]
 for nome in nomes:
     print(f"Olá, {nome}")
 
+print("Soma de Valores")
+cont = 0
+for i in range(0, 101):
+     cont += i
+     print(cont)
+
+print("Contagem regressiva")
+for j in range(6, 0, -1):
+    print(j)
+
+#Exercicios com while
+
+print("Contador Simples while")
+n=0
+while n < 5:
+    n +=1
+    print(n)
+
+print("Senha")
+senha="123"
+senhas = input("Digite sua senha: ")
+while senha != senhas:
+    senhas = input("Senha incorreta, por favor digite a sua senha:")
+
+print("Menu")
+print("1 - Ver saldo")
+print("2 - Depositar")
+print("3 - Sair")
+escolha = int(input("Digite a sua escolha: "))
+while  escolha != 3:
+    print("1 - Ver saldo")
+    print("2 - Depositar")
+    print("3 - Sair")
+    escolha = int(input("Digite a sua escolha: "))
+    
+print("Soma até parar(obs se quiser parar digite 0)")
+a = float(input("Digite o primeiro valor: "))
+soma = a
+while a != 0:
+    a = float(input("Digite valor para soma: "))
+    soma += a 
+print(soma)
+
+print("Contagem regressiva controlada")
+regre = int(input("Digite um número: "))
+while regre in range(regre, 0, -1):
+    regre-=1
+    print(regre) 
