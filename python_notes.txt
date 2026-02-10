@@ -1,0 +1,5 @@
+Para Loops
+Vai repetir? -> talvez Loop
+Sei quantas vezes ? -> for
+depende de condição ? -> while
+só uma vez? -> sem Loop
