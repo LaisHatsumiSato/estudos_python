@@ -23,7 +23,10 @@ for n in range(1,10):
 print("Contagem personalizada só par")
 for i in range(1, 21):
     if i % 2 == 0 :
-        print(i) 
+        print(i)
+
+# for i in range(2, 21, 2):
+    # print(i)
 
 print("Lista simples")
 nomes= ["Ana", "Bruno", "Carlos", "Diana"]
@@ -53,6 +56,7 @@ senha="123"
 senhas = input("Digite sua senha: ")
 while senha != senhas:
     senhas = input("Senha incorreta, por favor digite a sua senha:")
+print("Senha correta!")
 
 print("Menu")
 print("1 - Ver saldo")
@@ -67,7 +71,7 @@ while  escolha != 3:
     
 print("Soma até parar(obs se quiser parar digite 0)")
 a = float(input("Digite o primeiro valor: "))
-soma = a
+soma=a
 while a != 0:
     a = float(input("Digite valor para soma: "))
     soma += a 
@@ -75,6 +79,6 @@ print(soma)
 
 print("Contagem regressiva controlada")
 regre = int(input("Digite um número: "))
-while regre in range(regre, 0, -1):
+while regre > 0:
     regre-=1
-    print(regre) 
+    print(regre)
