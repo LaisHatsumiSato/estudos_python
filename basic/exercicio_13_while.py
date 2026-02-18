@@ -13,3 +13,4 @@ while numero <= 50:
        soma += numero
     numero += 1
 print(soma)   
+
