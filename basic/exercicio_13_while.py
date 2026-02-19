@@ -12,4 +12,4 @@ while numero <= 50:
     if numero % 2 == 0:
        soma += numero
     numero += 1
-print(soma)   
+print(soma)
