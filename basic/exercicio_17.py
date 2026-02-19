@@ -10,12 +10,10 @@
 # print("Média, 0 para a contagem")
 # soma = 0
 # quantidade=0
-
 # numero=float(input("Digite um número(0 para parar): "))
 # while numero !=0:
 #     soma += numero
 #     quantidade+=1
-
 #     numero=float(input("Digite um número(0 para parar): "))
 
 # if quantidade >0:

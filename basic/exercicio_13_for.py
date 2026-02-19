@@ -8,7 +8,7 @@ for letra in palavra:
         contador+=1
 print(f"Resultado: {contador} vogais")
 
-print("Taduada com for")
+print("Tabuada com for")
 tabuada=int(input("Digite um número para tabuada: "))
 multiplicador=0
 for i in range(multiplicador,10):
